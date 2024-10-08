@@ -14,7 +14,7 @@ public static void main(String[] args) {
        if (nilai > tertinggi) {
         tertinggi = nilai;
        }
-       if (nilai > terendah) {
+       if (nilai < terendah) {
         terendah = nilai;
        }
 
@@ -29,6 +29,6 @@ public static void main(String[] args) {
     System.out.println("Nilai terendah: " + terendah);
     System.out.println("Jumlah mahasiswa lulus: " + jumlahLulus);
     System.out.println("Jumlah mahasiswa tidak lulus: " + jumlahTidahLulus);
-    
+
 }
 }
